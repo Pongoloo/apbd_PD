@@ -20,12 +20,12 @@ static int Max(int[] tab)
 }
 static double average(int[] tab)
 {
-    double result = 0;
+    double conflict = 0;
     for (int i = 0; i < tab.Length; i++)
     {
-        result += tab[i];
+        conflict += tab[i];
     }
 
-    result /= tab.Length;
-    return result;
+    conflict /= tab.Length;
+    return conflict;
 }
