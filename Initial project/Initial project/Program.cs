@@ -20,7 +20,6 @@ static int Max(int[] tab)
 }
 static double average(int[] tab)
 {
-<<<<<<< HEAD
     double conflict = 0;
     for (int i = 0; i < tab.Length; i++)
     {
